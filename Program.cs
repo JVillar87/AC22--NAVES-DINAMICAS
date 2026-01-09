@@ -26,9 +26,9 @@ class Program
             Console.Write("Opción: ");
 
             int opcion;
-            while (!int.TryParse(Console.ReadLine(), out opcion) || opcion < 1 || opcion > 5)
+            while (!int.TryParse(Console.ReadLine(), out opcion) || opcion < 1 || opcion > 6)
             {
-                Console.Write("Opción inválida. Por favor, elige una correcta (1-5): ");
+                Console.Write("Opción inválida. Por favor, elige una correcta (1-6): ");
             }
 
             switch (opcion)
@@ -134,7 +134,7 @@ class Program
         {
             Console.Write(
                 "Tipo inválido (1-5): ");
-        }   
+        }
 
     }
 
@@ -147,7 +147,7 @@ class Program
         xWing.Clear();
         Console.WriteLine("Todas las naves han sido eliminadas.");
     }
-    
+
 
     static string GenerarNombre(int tipo)
     {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MSI-GF75thin\\Desktop\\PRATICAS GITHUB(Sistemas 0483-Program 0485-Entorns 0487)\\PRACTICAS\\PRACTICAS_JENNIFERVILLAR\\PROGRAMACIÓN\\AC22 - NAVES DINÁMICAS\\AC22 - NAVES DINÁMICAS.csproj": {}
+    "C:\\Users\\MSI-GF75thin\\Desktop\\PRATICAS GITHUB(Sistemas 0483-Program 0485-Entorns 0487)\\AC22--NAVES-DINAMICAS\\AC22 - NAVES DINÁMICAS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MSI-GF75thin\\Desktop\\PRATICAS GITHUB(Sistemas 0483-Program 0485-Entorns 0487)\\PRACTICAS\\PRACTICAS_JENNIFERVILLAR\\PROGRAMACIÓN\\AC22 - NAVES DINÁMICAS\\AC22 - NAVES DINÁMICAS.csproj": {
+    "C:\\Users\\MSI-GF75thin\\Desktop\\PRATICAS GITHUB(Sistemas 0483-Program 0485-Entorns 0487)\\AC22--NAVES-DINAMICAS\\AC22 - NAVES DINÁMICAS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MSI-GF75thin\\Desktop\\PRATICAS GITHUB(Sistemas 0483-Program 0485-Entorns 0487)\\PRACTICAS\\PRACTICAS_JENNIFERVILLAR\\PROGRAMACIÓN\\AC22 - NAVES DINÁMICAS\\AC22 - NAVES DINÁMICAS.csproj",
+        "projectUniqueName": "C:\\Users\\MSI-GF75thin\\Desktop\\PRATICAS GITHUB(Sistemas 0483-Program 0485-Entorns 0487)\\AC22--NAVES-DINAMICAS\\AC22 - NAVES DINÁMICAS.csproj",
         "projectName": "AC22 - NAVES DINÁMICAS",
-        "projectPath": "C:\\Users\\MSI-GF75thin\\Desktop\\PRATICAS GITHUB(Sistemas 0483-Program 0485-Entorns 0487)\\PRACTICAS\\PRACTICAS_JENNIFERVILLAR\\PROGRAMACIÓN\\AC22 - NAVES DINÁMICAS\\AC22 - NAVES DINÁMICAS.csproj",
+        "projectPath": "C:\\Users\\MSI-GF75thin\\Desktop\\PRATICAS GITHUB(Sistemas 0483-Program 0485-Entorns 0487)\\AC22--NAVES-DINAMICAS\\AC22 - NAVES DINÁMICAS.csproj",
         "packagesPath": "C:\\Users\\MSI-GF75thin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MSI-GF75thin\\Desktop\\PRATICAS GITHUB(Sistemas 0483-Program 0485-Entorns 0487)\\PRACTICAS\\PRACTICAS_JENNIFERVILLAR\\PROGRAMACIÓN\\AC22 - NAVES DINÁMICAS\\obj\\",
+        "outputPath": "C:\\Users\\MSI-GF75thin\\Desktop\\PRATICAS GITHUB(Sistemas 0483-Program 0485-Entorns 0487)\\AC22--NAVES-DINAMICAS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MSI-GF75thin\\AppData\\Roaming\\NuGet\\NuGet.Config"
