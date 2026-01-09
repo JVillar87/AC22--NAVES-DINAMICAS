@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "AC22 - NAVES DINÁMICAS/1.0.0": {
+        "runtime": {
+          "AC22 - NAVES DINÁMICAS.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AC22 - NAVES DINÁMICAS/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
