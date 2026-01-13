@@ -78,7 +78,8 @@ class Program
     static void CambiarNombre(string finalName)
     {
         Console.WriteLine("Has elegido la opción 2");
-        Console.WriteLine($"¿Quieres cambiar el nombre (s/n)?");
+        Console.Write("=== CAMBIAR NOMBRE DE NAVE ===");
+        Console.WriteLine($"¿Estás seguro (s/n)?");
         string respuesta = Console.ReadLine() ?? "";
 
         if (respuesta == "s" || respuesta == "S")
@@ -89,25 +90,26 @@ class Program
 
     static void ListarNaves()
     {
-        Console.WriteLine("Naves en HALCONMILENARIO:");
+        Console.WriteLine("====LISTA NAVES====");
+        Console.WriteLine("《Naves en HALCONMILENARIO》:");
         foreach (var nave in halconMilenario)
         {
             Console.WriteLine(nave);
         }
 
-        Console.WriteLine("Naves en CAZAESTELAR:");
+        Console.WriteLine("《Naves en CAZAESTELAR》:");
         foreach (var nave in cazaEstelar)
         {
             Console.WriteLine(nave);
         }
 
-        Console.WriteLine("Naves en SUPERDESTRUCTOR:");
+        Console.WriteLine("《Naves en SUPERDESTRUCTOR》:");
         foreach (var nave in superDestructor)
         {
             Console.WriteLine(nave);
         }
 
-        Console.WriteLine("Naves en YWING:");
+        Console.WriteLine("《Naves en YWING》:");
         foreach (var nave in yWing)
         {
             Console.WriteLine(nave);
