@@ -114,7 +114,7 @@ class Program
 
     static void EliminarNave()
     {
-        Console.WriteLine("Eliminar nave de:");
+        Console.WriteLine("===ELIMINAR NAVE TIPO:===");
         Console.WriteLine("1. HALCONMILENARIO");
         Console.WriteLine("2. CAZAESTELAR");
         Console.WriteLine("3. SUPERDESTRUCTOR");
