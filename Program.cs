@@ -51,25 +51,36 @@ class Program
         Console.WriteLine("3. SUPERDESTRUCTOR (Queue)");
         Console.WriteLine("4. YWING (Queue)");
         Console.WriteLine("5. XWING (List)");
+        Console.Write("Opción: ");
 
-        int tipo;
-        while (!int.TryParse(Console.ReadLine(), out tipo) || tipo < 1 || tipo > 5)
+        if (!int.TryParse(Console.ReadLine(), out int tipo) || tipo < 1 || tipo > 5)
         {
-            Console.Write("Tipo inválido (1-5): ");
+            Console.WriteLine("Tipo inválido. Operación cancelada.");
+            return;
         }
-
 
         string nombre = GenerarNombre(tipo);
 
         switch (tipo)
         {
-            case 1: navesSTACK.Push(nombre); break;
-            case 3: navesQUEUE.Enqueue(nombre); break;
-            case 5: navesLIST.Add(nombre); break;
+            case 1: // HALCONMILENARIO
+            case 2: // CAZAESTELAR
+                navesSTACK.Push(nombre);
+                break;
+
+            case 3: // SUPERDESTRUCTOR
+            case 4: // YWING
+                navesQUEUE.Enqueue(nombre);
+                break;
+
+            case 5: // XWING
+                navesLIST.Add(nombre);
+                break;
         }
 
         Console.WriteLine($"Nave creada: {nombre}");
     }
+
 
     static void CambiarNombre(string finalName)
     {
@@ -82,35 +93,47 @@ class Program
         {
             Console.Write($"Nave renombrada: {finalName}");
         }
-    }
+    } // CambiarNombre no está completo. Pero Stack y Queue no permiten acceso directo, no sé cómo implementarlo.
 
     static void ListarNaves()
     {
-        Console.WriteLine("====LISTA NAVES====");
+        Console.WriteLine("==== LISTA NAVES ====");
+
         Console.WriteLine("Naves tipo 《HALCONMILENARIO》:");
         foreach (var nave in navesSTACK)
         {
-            Console.WriteLine(nave);
+            if (nave.StartsWith("Halcón"))
+                Console.WriteLine(nave);
         }
 
         Console.WriteLine("Naves tipo 《CAZAESTELAR》:");
         foreach (var nave in navesSTACK)
         {
-            Console.WriteLine(nave);
+            if (nave.StartsWith("Cazador"))
+                Console.WriteLine(nave);
         }
 
         Console.WriteLine("Naves tipo 《SUPERDESTRUCTOR》:");
         foreach (var nave in navesQUEUE)
         {
-            Console.WriteLine(nave);
+            if (nave.StartsWith("Destructor"))
+                Console.WriteLine(nave);
         }
 
         Console.WriteLine("Naves tipo 《YWING》:");
         foreach (var nave in navesQUEUE)
         {
+            if (nave.StartsWith("Y-Wing"))
+                Console.WriteLine(nave);
+        }
+
+        Console.WriteLine("Naves tipo 《XWING》:");
+        foreach (var nave in navesLIST)
+        {
             Console.WriteLine(nave);
         }
     }
+
 
     static void EliminarNave()
     {

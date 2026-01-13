@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AC22 - NAVES DINÁMICAS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+631b41b7e08c44556a18ce3281fda941b8170e50")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+da048299653a3fbcf85092f7ff6d9a3e58a564d7")]
 [assembly: System.Reflection.AssemblyProductAttribute("AC22 - NAVES DINÁMICAS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AC22 - NAVES DINÁMICAS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
