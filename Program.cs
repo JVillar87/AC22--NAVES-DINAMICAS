@@ -3,12 +3,9 @@ using System.Collections.Generic;
 
 class Program
 {
-    static Stack<string> halconMilenario = new Stack<string>();
-    static Stack<string> cazaEstelar = new Stack<string>();
-    static Queue<string> superDestructor = new Queue<string>();
-    static Queue<string> yWing = new Queue<string>();
-    static List<string> xWing = new List<string>();
-
+    static Stack<string> navesSTACK = new Stack<string>();
+    static Queue<string> navesQUEUE = new Queue<string>();
+    static List<string> navesLIST = new List<string>();
     static Random generador = new Random();
     static bool salir = false;
 
@@ -61,15 +58,14 @@ class Program
             Console.Write("Tipo inválido (1-5): ");
         }
 
+
         string nombre = GenerarNombre(tipo);
 
         switch (tipo)
         {
-            case 1: halconMilenario.Push(nombre); break;
-            case 2: cazaEstelar.Push(nombre); break;
-            case 3: superDestructor.Enqueue(nombre); break;
-            case 4: yWing.Enqueue(nombre); break;
-            case 5: xWing.Add(nombre); break;
+            case 1: navesSTACK.Push(nombre); break;
+            case 3: navesQUEUE.Enqueue(nombre); break;
+            case 5: navesLIST.Add(nombre); break;
         }
 
         Console.WriteLine($"Nave creada: {nombre}");
@@ -78,7 +74,7 @@ class Program
     static void CambiarNombre(string finalName)
     {
         Console.WriteLine("Has elegido la opción 2");
-        Console.Write("=== CAMBIAR NOMBRE DE NAVE ===");
+        Console.WriteLine("=== CAMBIAR NOMBRE DE NAVE ===");
         Console.WriteLine($"¿Estás seguro (s/n)?");
         string respuesta = Console.ReadLine() ?? "";
 
@@ -92,31 +88,25 @@ class Program
     {
         Console.WriteLine("====LISTA NAVES====");
         Console.WriteLine("《Naves en HALCONMILENARIO》:");
-        foreach (var nave in halconMilenario)
+        foreach (var nave in navesSTACK)
         {
             Console.WriteLine(nave);
         }
 
         Console.WriteLine("《Naves en CAZAESTELAR》:");
-        foreach (var nave in cazaEstelar)
+        foreach (var nave in navesSTACK)
         {
             Console.WriteLine(nave);
         }
 
         Console.WriteLine("《Naves en SUPERDESTRUCTOR》:");
-        foreach (var nave in superDestructor)
+        foreach (var nave in navesQUEUE)
         {
             Console.WriteLine(nave);
         }
 
         Console.WriteLine("《Naves en YWING》:");
-        foreach (var nave in yWing)
-        {
-            Console.WriteLine(nave);
-        }
-
-        Console.WriteLine("Naves en XWING:");
-        foreach (var nave in xWing)
+        foreach (var nave in navesQUEUE)
         {
             Console.WriteLine(nave);
         }
@@ -142,11 +132,9 @@ class Program
 
     static void EliminarTodas()
     {
-        halconMilenario.Clear();
-        cazaEstelar.Clear();
-        superDestructor.Clear();
-        yWing.Clear();
-        xWing.Clear();
+        navesSTACK.Clear();
+        navesQUEUE.Clear();
+        navesLIST.Clear();
         Console.WriteLine("Todas las naves han sido eliminadas.");
     }
 
