@@ -87,25 +87,25 @@ class Program
     static void ListarNaves()
     {
         Console.WriteLine("====LISTA NAVES====");
-        Console.WriteLine("《Naves en HALCONMILENARIO》:");
+        Console.WriteLine("Naves tipo 《HALCONMILENARIO》:");
         foreach (var nave in navesSTACK)
         {
             Console.WriteLine(nave);
         }
 
-        Console.WriteLine("《Naves en CAZAESTELAR》:");
+        Console.WriteLine("Naves tipo 《CAZAESTELAR》:");
         foreach (var nave in navesSTACK)
         {
             Console.WriteLine(nave);
         }
 
-        Console.WriteLine("《Naves en SUPERDESTRUCTOR》:");
+        Console.WriteLine("Naves tipo 《SUPERDESTRUCTOR》:");
         foreach (var nave in navesQUEUE)
         {
             Console.WriteLine(nave);
         }
 
-        Console.WriteLine("《Naves en YWING》:");
+        Console.WriteLine("Naves tipo 《YWING》:");
         foreach (var nave in navesQUEUE)
         {
             Console.WriteLine(nave);
